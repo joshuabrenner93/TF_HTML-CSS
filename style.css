@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+h2,h3,h4 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.main {
+  text-align: center;
+  background: url("http://zdnet4.cbsistatic.com/hub/i/r/2016/05/24/4b42a04e-d09e-4bf1-ba64-a94be5ad6c51/resize/770x300/3e00734ab42f15f6d9e628a4e3db927d/sddc-background.jpg") no-repeat center center;
+  background-size: cover;
+  height: 643px;
+
+}
+
+.main .container {
+  position: relative;
+  top: 100px;
+}
+
+
+.main h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 125px;
+}
+
+.main h2 {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 50px;
+}
+
+.main .btn1, .main .btn2, .main .btn3, .btn4{
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.header {
+  background-image: url("images/DSC08291.jpg");
+  height: 400px;
+  width: 400px;
+  background-position: center center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p {
+  color: #444444;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+a {
+  color: #214E34;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.returnHome{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50px;
+}
